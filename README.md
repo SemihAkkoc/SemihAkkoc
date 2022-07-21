@@ -6,9 +6,9 @@ struct Semih : public Human, public Student {
   const char * name = "Semih Akkoc";
   int lucky_number = 3;
   
-  std::array<std::string, 3> uni_department_year { "Bilkent University", "EEE", "Sophomore"};
+  std::array<std::string, 3> uni_department_year { "Bilkent University", "EEE", "Sophomore" };
   
-  const char * interests[5] = {"Machine Learning" , "Physics", "Mathematics", "Economics", "Snowboarding"};
+  const char * interests[5] = { "Machine Learning" , "Physics", "Mathematics", "Economics", "Snowboarding" };
   std::vector<std::string> current_courses { "EEE102", "EEE211", "MATH241" };
   
   std::string email = "semihm.akkoc@gmail.com";
