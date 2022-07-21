@@ -1,6 +1,8 @@
+```
 #include <curiosity>
-
+  
 struct Semih : public Human, public Student {
+  
   const char * name = "Semih Akkoc";
   int lucky_number = 3;
   
@@ -12,6 +14,8 @@ struct Semih : public Human, public Student {
   std::string email = "semihm.akkoc@gmail.com";
 }
 
+// inspired by @ulasdilek
+```
 
 ![snake gif](https://github.com/SemihAkkoc/SemihAkkoc/blob/output/github-contribution-grid-snake.gif)
 
