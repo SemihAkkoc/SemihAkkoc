@@ -1,8 +1,16 @@
-- 👋 Hi, I’m @SemihAkkoc
-- 👀 I’m interested in machine learning and economics... 
-- 🌱 I’m currently taking MATH102, PHYS102, CHEM201, CS102...
-- 💞️ I’m looking to collaborate on robotics projects or anything that catches my curiosity.
-- 📫 How to reach me? Email: semihm.akkoc@gmail.com
+#include <curiosity>
+
+struct Semih : public Human, public Student {
+  const char * name = "Semih Akkoc";
+  int lucky_number = 3;
+  
+  std::string uni_department = "Bilkent University, EEE";
+  
+  const char * interests[5] = {"Machine Learning" , "Physics", "Mathematics", "Economics", "Snowboarding"};
+  std::vector<std::string> current_courses { "EEE102", "EEE211", "MATH241" };
+  
+  std::string email = "semihm.akkoc@gmail.com";
+}
 
 
 ![snake gif](https://github.com/SemihAkkoc/SemihAkkoc/blob/output/github-contribution-grid-snake.gif)
