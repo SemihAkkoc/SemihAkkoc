@@ -8,7 +8,7 @@ struct Semih : public Human, public Student {
   
   std::array<std::string, 3> uni_department_year { "Bilkent University", "EEE", "Senior" };
   
-  const char * interests[5] = { "Random Processes" , "Information Theory", "Computational Electromagnetics", "Economics" };
+  const char * interests[5] = { "Random Processes" , "Information Theory", "Electromagnetics", "Economics" };
   std::vector<std::string> current_courses { "EEE634", "EEE533", "EEE493", "PHYS371" };
   
   std::string email = "semihm.akkoc@gmail.com";
