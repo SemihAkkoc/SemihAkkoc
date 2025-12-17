@@ -12,6 +12,8 @@ struct Semih : public Human, public Student {
   std::vector<std::string> current_courses { "ENEE621", "ENEE627" };
   
   std::string email = "semihm.akkoc@gmail.com";
+
+  // inspired by @ulasdilek
 }
 ```
 
