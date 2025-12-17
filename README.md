@@ -13,8 +13,9 @@ struct Semih : public Human, public Student {
   
   std::string email = "semihm.akkoc@gmail.com";
 
-  // inspired by @ulasdilek
 }
+
+// inspired by @ulasdilek
 ```
 
 <!---
